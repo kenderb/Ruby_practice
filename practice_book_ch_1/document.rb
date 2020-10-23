@@ -1,3 +1,9 @@
+# frozen_string_literal: true
+
+# Author: Russ Olsen
+# Copyright 2010 Russ Olsen
+#
+# Document: An example Ruby class
 class Document
   attr_accessor :title, :author, :content
 
@@ -15,3 +21,4 @@ class Document
     words.size
   end
 end
+# frozen_string_literal: false
