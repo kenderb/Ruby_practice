@@ -8,3 +8,7 @@ elsif user_num.positive?
 else
   puts 'You picked zero!'
 end
+
+if 15.instance_of?(Integer)
+  puts 15
+end
